@@ -65,9 +65,10 @@ public class ListDemo {
 			System.out.println("element: " + element);
 
 			// Generates ConcurrentModificationException
-			/*if (element == 9) {
-				list1.remove(Integer.valueOf(element)); // valueOf is used due to its caching
-			}*/
+			/*
+			 * if (element == 9) { list1.remove(Integer.valueOf(element)); // valueOf is
+			 * used due to its caching }
+			 */
 		}
 	}
 
